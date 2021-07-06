@@ -176,3 +176,4 @@ router.get('/youtube/video', async (req, res, next) => {
          	res.json(loghandler.error)
 })
 })
+module.exports = router
